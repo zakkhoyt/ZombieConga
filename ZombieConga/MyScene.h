@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+@import SpriteKit;
 
 @interface MyScene : SKScene
 

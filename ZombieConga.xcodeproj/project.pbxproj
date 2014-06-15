@@ -13,6 +13,7 @@
 		CF7A5185194D162F00304801 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF7A5183194D162F00304801 /* Main.storyboard */; };
 		CF7A5187194D162F00304801 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF7A5186194D162F00304801 /* Images.xcassets */; };
 		CF7A5193194D162F00304801 /* ZombieCongaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7A5192194D162F00304801 /* ZombieCongaTests.m */; };
+		CF7A519E194D166100304801 /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7A519D194D166100304801 /* MyScene.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,8 @@
 		CF7A518C194D162F00304801 /* ZombieCongaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZombieCongaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF7A5191194D162F00304801 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF7A5192194D162F00304801 /* ZombieCongaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZombieCongaTests.m; sourceTree = "<group>"; };
+		CF7A519C194D166100304801 /* MyScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
+		CF7A519D194D166100304801 /* MyScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				CF7A5183194D162F00304801 /* Main.storyboard */,
 				CF7A5186194D162F00304801 /* Images.xcassets */,
 				CF7A5179194D162F00304801 /* Supporting Files */,
+				CF7A519C194D166100304801 /* MyScene.h */,
+				CF7A519D194D166100304801 /* MyScene.m */,
 			);
 			path = ZombieConga;
 			sourceTree = "<group>";
@@ -215,6 +220,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF7A519E194D166100304801 /* MyScene.m in Sources */,
 				CF7A5182194D162F00304801 /* ViewController.m in Sources */,
 				CF7A517F194D162F00304801 /* AppDelegate.m in Sources */,
 				CF7A517C194D162F00304801 /* main.m in Sources */,
